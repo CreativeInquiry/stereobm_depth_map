@@ -4,9 +4,7 @@ using namespace ofxCv;
 using namespace cv;
 
 //--------------------------------------------------------------
-void ofApp::setup(){
-    
-    
+void ofApp::setup() {    
     ofImgL.load("left.png");
     ofImgR.load("right.png");
     
@@ -40,13 +38,12 @@ void ofApp::setup(){
 }
 
 //--------------------------------------------------------------
-void ofApp::draw(){
+void ofApp::draw() {
     ofBackground(0);
     
     drawMat(stereoMat2, 50, 245);
     
     ofImgR.draw(  0,0, 320,240);
-    ofImgL.draw(330,0, 320,240);
-    
+    ofImgL.draw(330,0, 320,240);  
 }
 
