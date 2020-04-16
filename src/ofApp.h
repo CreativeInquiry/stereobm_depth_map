@@ -7,18 +7,18 @@
 using namespace ofxCv;
 using namespace cv;
 
-class ofApp : public ofBaseApp{
+class ofApp : public ofBaseApp {
     
-public:
-    void setup();
-    void draw();
+	public:
+		void setup();
+		void draw();
     
-    ofImage ofImgL;
-    ofImage ofImgR;
-    Mat imgMatL;
-    Mat imgMatR;
+		ofImage ofImgL;
+		ofImage ofImgR;
+		Mat imgMatL;
+		Mat imgMatR;
     
-    Mat stereoMat;
-    Mat stereoMat2;
+		Mat stereoMat;
+		Mat stereoMat2;
     
 };
